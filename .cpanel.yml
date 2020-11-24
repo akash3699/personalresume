@@ -2,8 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/akashwco/public_html/
-    - /bin/cp -Rf images $DEPLOYPATH
-    - /bin/cp -Rf css $DEPLOYPATH
-    - /bin/cp -Rf js $DEPLOYPATH
-    - /bin/cp -Rf style $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -Rf * $DEPLOYPATH
