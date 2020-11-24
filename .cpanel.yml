@@ -6,4 +6,4 @@ deployment:
     - /bin/cp -Rf css $DEPLOYPATH
     - /bin/cp -Rf js $DEPLOYPATH
     - /bin/cp -Rf style $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -Rf index.html $DEPLOYPATH
